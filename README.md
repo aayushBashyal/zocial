@@ -51,4 +51,26 @@ It is ideal for learning backend fundamentals or presenting to clients as a demo
 ---
 
 ## 📁 Project Structure
+app/
+├── main.py
+├── database.py
+├── auth/
+│ ├── models.py
+│ ├── routes.py
+│ └── utils.py
+├── tasks/
+│ ├── models.py
+│ ├── routes.py
+│ └── schemas.py
+└── core/
+├── config.py
+└── security.py
 
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+git clone https://github.com/your-username/minimalist-task-api.git
+cd minimalist-task-api
